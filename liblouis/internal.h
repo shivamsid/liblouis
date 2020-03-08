@@ -191,7 +191,7 @@ typedef struct {
 	TranslationTableOffset next;
 	widechar lookFor;
 	widechar found;
-} CharOrDots;
+} CharDotsMapping;
 
 typedef struct {
 	TranslationTableOffset next;
